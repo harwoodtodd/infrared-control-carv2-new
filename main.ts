@@ -29,7 +29,7 @@ makerbit.onIrButton(IrButton.Down, IrButtonAction.Pressed, function () {
     mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Back, 100)
 })
 makerbit.onIrButton(IrButton.Up, IrButtonAction.Pressed, function () {
-    mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Run, 100)
+    mbit_Robot.CarCtrlSpeed2(mbit_Robot.CarState.Car_Run, 50, 25)
 })
 makerbit.onIrButton(IrButton.Power, IrButtonAction.Pressed, function () {
     mbit_Robot.RGB_Car_Big2(mbit_Robot.enColor.Red)
